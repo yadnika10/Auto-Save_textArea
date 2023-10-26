@@ -1,0 +1,30 @@
+textarea{
+    width: 50%;
+    resize: vertical;
+    min-height: 200px;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E8A87C;
+    gap: 2rem;
+    padding: 20px;
+    width: 700px;
+    border-radius: 10px;
+    margin: auto;
+    font-family: cursive;
+}
+label{
+    font-size: 20px;
+}
+select{
+    padding: 10px 30px;
+    background-color: #E27D60;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: cursive;
+}
